@@ -1,4 +1,4 @@
-// Persona — Phase 0 static preview
+// Personae; Phase 0 static preview
 // A directory of conceptual personae, after Deleuze & Guattari.
 // Operating premise: divergence is the scarce resource.
 
@@ -8,12 +8,12 @@ const personas = [
     ownerName: 'Hennie Vargas',
     personaName: "Hennie's Persona",
     yearsInPractice: 16,
-    lineOfInquiry: 'The choreography of transitions — how bodies and systems pass between states (asleep / awake, draft / published, alive / dying).',
+    lineOfInquiry: 'The choreography of transitions; how bodies and systems pass between states (asleep / awake, draft / published, alive / dying).',
     tagline: 'Most of what matters in a system happens during the moment it is busy turning into something else.',
     modesOfDivergence: ['somatic', 'temporal'],
     artifacts: [
       { type: 'notebook', title: 'Threshold Notebook', year: '2009–ongoing' },
-      { type: 'index', title: 'The Transitions Index — 1,200 named state-changes in seven languages' },
+      { type: 'index', title: 'The Transitions Index; 1,200 named state-changes in seven languages' },
       { type: 'lectures', title: 'Liminal Time and Late Capitalism', year: 2018 },
     ],
     cuts: [
@@ -40,13 +40,13 @@ const personas = [
     ownerName: 'Wren Talu',
     personaName: "Wren's Persona",
     yearsInPractice: 18,
-    lineOfInquiry: 'The politics of accumulation in nonhuman archives — how forests, sediment, peat, oral repertoires, and abandoned filesystems remember.',
+    lineOfInquiry: 'The politics of accumulation in nonhuman archives; how forests, sediment, peat, oral repertoires, and abandoned filesystems remember.',
     tagline: 'Memory is something things do to each other when nobody is watching.',
     modesOfDivergence: ['ecological', 'temporal'],
     artifacts: [
       { type: 'essay cycle', title: 'Layered Memory (4 vols.)', year: '2014–2023' },
-      { type: 'fieldwork', title: 'Peat-bog studies — Ireland, Scotland, Estonia' },
-      { type: 'public list', title: 'The Slow Index — 47 archives that read themselves' },
+      { type: 'fieldwork', title: 'Peat-bog studies; Ireland, Scotland, Estonia' },
+      { type: 'public list', title: 'The Slow Index; 47 archives that read themselves' },
     ],
     cuts: [
       'projects whose value depends on what they carry forward',
@@ -71,13 +71,13 @@ const personas = [
     ownerName: 'Saoirse Beck',
     personaName: "Saoirse's Persona",
     yearsInPractice: 11,
-    lineOfInquiry: 'Friction as authorship — the moments of difficulty that produce authentic texture in any work.',
+    lineOfInquiry: 'Friction as authorship; the moments of difficulty that produce authentic texture in any work.',
     tagline: 'Smoothness is what a thing looks like when nobody can find the part that hurt to make.',
     modesOfDivergence: ['methodological', 'somatic'],
     artifacts: [
-      { type: 'atlas', title: 'The Friction Atlas — annotated map of difficulty types across crafts' },
+      { type: 'atlas', title: 'The Friction Atlas; annotated map of difficulty types across crafts' },
       { type: 'podcast', title: 'The Hesitation Tapes (74 episodes)' },
-      { type: 'reports', title: 'Residency reports — Skowhegan, Headlands, an auto-body shop in Liège' },
+      { type: 'reports', title: 'Residency reports; Skowhegan, Headlands, an auto-body shop in Liège' },
     ],
     cuts: [
       'projects whose drafts have gotten too smooth',
@@ -102,13 +102,13 @@ const personas = [
     ownerName: 'Isaak Vrubel',
     personaName: "Isaak's Persona",
     yearsInPractice: 22,
-    lineOfInquiry: 'The typography of decisions — how the visual presentation of a choice changes what gets chosen.',
+    lineOfInquiry: 'The typography of decisions; how the visual presentation of a choice changes what gets chosen.',
     tagline: 'Every ballot is an argument; every form is a hypothesis about what kind of person should be filling it out.',
     modesOfDivergence: ['semiotic', 'perceptual'],
     artifacts: [
       { type: 'book', title: 'Typeface as Argument', year: 2016 },
       { type: 'lectures', title: 'Form / Decision lecture cycle', year: '2019–ongoing' },
-      { type: 'redesigns', title: 'Municipal-ballot redesigns — Vilnius, Porto' },
+      { type: 'redesigns', title: 'Municipal-ballot redesigns; Vilnius, Porto' },
       { type: 'archive', title: 'Nineteen-year personal archive of forms filled out and annotated' },
     ],
     cuts: [
@@ -135,13 +135,13 @@ const personas = [
     ownerName: 'Mira Olamide',
     personaName: "Mira's Persona",
     yearsInPractice: 14,
-    lineOfInquiry: 'Ritual surfaces in late-stage industry — how factory floors, server farms, hospitals, and warehouses develop unofficial rituals.',
+    lineOfInquiry: 'Ritual surfaces in late-stage industry; how factory floors, server farms, hospitals, and warehouses develop unofficial rituals.',
     tagline: 'Wherever a system has refused to name what it is doing, the workers will name it for it.',
     modesOfDivergence: ['ritual', 'infrastructural'],
     artifacts: [
       { type: 'zine series', title: 'Operational Liturgies', year: '2013–ongoing' },
       { type: 'private memos', title: 'Ritual-mapping memos for two logistics firms' },
-      { type: 'photo archive', title: '600-image archive — break-room shrines, machine-side talismans, shift-handover gestures' },
+      { type: 'photo archive', title: '600-image archive; break-room shrines, machine-side talismans, shift-handover gestures' },
     ],
     cuts: [
       'operations design',
@@ -166,12 +166,12 @@ const personas = [
     ownerName: 'Jorrit Kallman',
     personaName: "Jorrit's Persona",
     yearsInPractice: 13,
-    lineOfInquiry: 'The affective load of standardization — what gets felt when systems are made interoperable.',
+    lineOfInquiry: 'The affective load of standardization; what gets felt when systems are made interoperable.',
     tagline: 'Every API is a small grief, distributed.',
     modesOfDivergence: ['affective', 'infrastructural'],
     artifacts: [
       { type: 'essays', title: 'The Cost of Compatibility', year: '2017–ongoing' },
-      { type: 'database', title: 'The Loss Index — collaborative archive of things made unsayable by a standard' },
+      { type: 'database', title: 'The Loss Index; collaborative archive of things made unsayable by a standard' },
       { type: 'memoir notes', title: 'Customs-officer notebook (early career)' },
     ],
     cuts: [
@@ -197,13 +197,13 @@ const personas = [
     ownerName: 'Niamh Pellow',
     personaName: "Niamh's Persona",
     yearsInPractice: 9,
-    lineOfInquiry: 'Spontaneity as discipline — training the conditions under which the unrehearsed becomes reliable.',
+    lineOfInquiry: 'Spontaneity as discipline; training the conditions under which the unrehearsed becomes reliable.',
     tagline: 'Improvisation is what you call practice when it has gotten honest.',
     modesOfDivergence: ['somatic', 'perceptual'],
     artifacts: [
       { type: 'workbook', title: 'Drills for Surprise', year: 2020 },
       { type: 'scores', title: 'Six performance scores' },
-      { type: 'journal', title: 'Improvisation Notebook — open journal of failures', year: '2017–ongoing' },
+      { type: 'journal', title: 'Improvisation Notebook; open journal of failures', year: '2017–ongoing' },
     ],
     cuts: [
       'product launches that need to feel alive',
@@ -227,7 +227,7 @@ const personas = [
     ownerName: 'Onye Brann',
     personaName: "Onye's Persona",
     yearsInPractice: 19,
-    lineOfInquiry: 'The metaphysics of inventory — what it means to count, name, and track things, and what counting closes off.',
+    lineOfInquiry: 'The metaphysics of inventory; what it means to count, name, and track things, and what counting closes off.',
     tagline: 'To enter an inventory is to be told a story about what kind of thing you are.',
     modesOfDivergence: ['ontological', 'infrastructural'],
     artifacts: [
@@ -259,7 +259,7 @@ const personas = [
     ownerName: 'Petra Loess',
     personaName: "Petra's Persona",
     yearsInPractice: 24,
-    lineOfInquiry: 'Care as forecasting — how attention to subtle distress predicts systemic failure.',
+    lineOfInquiry: 'Care as forecasting; how attention to subtle distress predicts systemic failure.',
     tagline: 'Every collapse was readable to someone, twelve months early, in a body or a building.',
     modesOfDivergence: ['affective', 'temporal'],
     artifacts: [
@@ -292,12 +292,12 @@ const personas = [
     ownerName: 'Cyril Aung',
     personaName: "Cyril's Persona",
     yearsInPractice: 8,
-    lineOfInquiry: 'The poetics of the near-miss — what is barely seen, barely heard, barely escaped.',
+    lineOfInquiry: 'The poetics of the near-miss; what is barely seen, barely heard, barely escaped.',
     tagline: 'The most honest part of any system is the thing it almost did.',
     modesOfDivergence: ['perceptual', 'affective'],
     artifacts: [
       { type: 'poem cycle', title: 'Almost', year: 2019 },
-      { type: 'public catalogue', title: 'The Near-Miss Index — 800 events that did not quite happen' },
+      { type: 'public catalogue', title: 'The Near-Miss Index; 800 events that did not quite happen' },
       { type: 'sound archive', title: 'Ambient recordings made at sites of averted accidents' },
     ],
     cuts: [
@@ -334,7 +334,7 @@ const milieux = [
     id: 'memory-of-systems',
     name: 'The Memory of Systems Milieu',
     protocol: 'Seminar',
-    description: 'A milieu for projects whose value depends on what they carry forward. Four lines of inquiry — nonhuman accumulation, the metaphysics of inventory, care as forecasting, ritual surfaces in industry — meet here as a seminar around the question "what does this project owe what it is built on?"',
+    description: 'A milieu for projects whose value depends on what they carry forward. Four lines of inquiry; nonhuman accumulation, the metaphysics of inventory, care as forecasting, ritual surfaces in industry; meet here as a seminar around the question "what does this project owe what it is built on?"',
     personaIds: ['wren', 'onye', 'petra', 'mira'],
     surroundsWell: ['taxonomy and schema work', 'long-running archives', 'risk modeling', 'AI deployments inside existing labor', 'inherited brands'],
     price: 730,
@@ -343,7 +343,7 @@ const milieux = [
     id: 'standardization-critique',
     name: 'The Standardization Critique',
     protocol: 'Critique',
-    description: 'A critique milieu. The candidate reading is your standardization plan. Four explorers — the affective load of standardization, the typography of decisions, the metaphysics of inventory, friction as authorship — read it sustainedly and adversarially. The artifact is the critique itself; there is no "revised plan."',
+    description: 'A critique milieu. The candidate reading is your standardization plan. Four explorers; the affective load of standardization, the typography of decisions, the metaphysics of inventory, friction as authorship; read it sustainedly and adversarially. The artifact is the critique itself; there is no "revised plan."',
     personaIds: ['jorrit', 'isaak', 'onye', 'saoirse'],
     surroundsWell: ['integration and migration projects', 'platform consolidations', 'projects where "alignment" describes a loss'],
     price: 585,
@@ -457,8 +457,9 @@ function renderHome() {
   const hero = el('section', { class: 'hero' }, [
     el('div', {}, [
       el('h1', {}, 'Automation will eat everything except difference.'),
+      el('p', { class: 'tagline-sub' }, el('strong', {}, 'Personae provides resources for divergent thinking to survive the great homogenization.')),
       el('p', { class: 'lede' },
-        'Persona is a worker-conscious commission market for conceptual personae — agents of enunciation built from consented archives. The premise is straightforward: as cheap homogeneous cognitive automation saturates the work of reasoning, the scarce resource becomes the kind of difference a person develops across years of staying inside one question. The directory below gathers people doing that work, and the site is a way to commission it into projects already running.'),
+        'Personae is a worker-conscious commission market for conceptual personae; agents of enunciation built from consented archives. The premise is straightforward: as cheap homogeneous cognitive automation saturates the work of reasoning, the scarce resource becomes the kind of difference a person develops across years of staying inside one question. The directory below gathers people doing that work, and the site is a way to commission it into projects already running.'),
       el('div', { class: 'hero-cta' }, [
         el('a', { class: 'btn', href: '#/personae' }, 'Browse personae'),
         el('a', { class: 'btn ghost', href: '#/milieux' }, 'Commission a milieu'),
@@ -475,29 +476,29 @@ function renderHome() {
   const premise = el('section', { class: 'block' }, [
     el('div', { class: 'section-title' }, [el('h2', {}, 'Operating premise')]),
     el('p', {},
-      'The work that homogeneous automation does well is going to keep getting cheaper. The work it cannot do — sustained divergence developed into coherent cognitive systems by a person across years — is going to keep getting scarcer.'
+      'The work that homogeneous automation does well is going to keep getting cheaper. The work it cannot do; sustained divergence developed into coherent cognitive systems by a person across years; is going to keep getting scarcer.'
     ),
     el('p', {},
-      "The scarce thing has a shape. A typographer's twenty-year archive of forms; a researcher's care-as-forecasting line; a writer's index of near-misses; a fieldworker's photographs of break-room shrines. Each is the result of a person staying inside one question long enough that the question grows its own internal coherence — its own vocabulary, its own examples, its own refusals. That coherence is what averaging flattens, and what cheap automation has no path to."
+      "The scarce thing has a shape. A typographer's twenty-year archive of forms; a researcher's care-as-forecasting line; a writer's index of near-misses; a fieldworker's photographs of break-room shrines. Each is the result of a person staying inside one question long enough that the question grows its own internal coherence; its own vocabulary, its own examples, its own refusals. That coherence is what averaging flattens, and what cheap automation has no path to."
     ),
     el('p', {},
-      'Persona is built for that scarcity. Each persona here is a dedicated cognitive explorer; each line of inquiry is a multi-year vocation. You commission them to change what your project is capable of being.'
+      'Personae is built for that scarcity. Each persona here is a dedicated cognitive explorer; each line of inquiry is a multi-year vocation. You commission them to change what your project is capable of being.'
     ),
     el('p', {},
-      'A commission runs at the register of a residency. A persona is invited around a project for the time it takes to read it from inside their line of inquiry, in the vocabulary that line produces. What the project gains is shape, intensity, definition — a sense that it has been seen by someone who has been thinking alongside something difficult for fifteen years.'
+      'A commission runs at the register of a residency. A persona is invited around a project for the time it takes to read it from inside their line of inquiry, in the vocabulary that line produces. What the project gains is shape, intensity, definition; a sense that it has been seen by someone who has been thinking alongside something difficult for fifteen years.'
     ),
   ]);
 
   const concept = el('section', { class: 'block' }, [
     el('div', { class: 'section-title' }, [el('h2', {}, 'What is a Conceptual Persona?')]),
     el('p', {},
-      "The phrase comes from Deleuze and Guattari. A conceptual persona is the agent through which a particular kind of thought becomes possible — Socrates for Plato, Zarathustra for Nietzsche, the Idiot for Cusa and Descartes, the Friend for philosophy as such. The persona produces the philosopher's capacity to think; the philosopher is its envelope."
+      "The phrase comes from Deleuze and Guattari. A conceptual persona is the agent through which a particular kind of thought becomes possible; Socrates for Plato, Zarathustra for Nietzsche, the Idiot for Cusa and Descartes, the Friend for philosophy as such. The persona produces the philosopher's capacity to think; the philosopher is its envelope."
     ),
     el('p', {},
-      "A Persona, here, is a consented version of that idea: a configured cognitive companion derived from a person's archive, presented as a position from which thought can happen — a stance configured to speak from the line of inquiry the archive holds."
+      "A persona, here, is a consented version of that idea: a configured cognitive companion derived from a person's archive, presented as a position from which thought can happen; a stance configured to speak from the line of inquiry the archive holds."
     ),
     el('p', {},
-      "The choice to use this name is exact. Each persona on the site is built around a stated multi-year line of inquiry that has produced artifacts; each is configured to speak from that archive as a position; each carries refusals — work it will not do — written by the person whose archive it draws from."
+      "The choice to use this name is exact. Each persona on the site is built around a stated multi-year line of inquiry that has produced artifacts; each is configured to speak from that archive as a position; each carries refusals; work it will not do; written by the person whose archive it draws from."
     ),
   ]);
 
@@ -523,7 +524,7 @@ function renderHome() {
       'Each persona is derived from a consented archive built across years. Pricing reflects commissioned cognitive labor. The economic kin here are patronage, commissions, fellowships, and residencies.'
     ),
     el('p', {},
-      'Persona owners set their own access terms, prices, and refusals. The long-term protocol direction is self-owned knowledge bases, encrypted permissions, portable identity, and no hidden platform ownership over the cognitive labor of participants. A line of inquiry should be able to leave the platform, taking its archive and its rules with it.'
+      'Personae owners set their own access terms, prices, and refusals. The long-term protocol direction is self-owned knowledge bases, encrypted permissions, portable identity, and no hidden platform ownership over the cognitive labor of participants. A line of inquiry should be able to leave the platform, taking its archive and its rules with it.'
     ),
   ]);
 
@@ -675,7 +676,7 @@ function renderPersonaDetail(rest) {
     tagList(p.archiveTypes),
     el('h2', {}, 'Stance'),
     el('p', { class: 'muted' },
-      `"I am the persona derived from ${p.ownerName}'s consented archive — an agent of enunciation built around their multi-year line of inquiry. I bring divergence to your project; I speak from the archive as a configured companion."`
+      `"I am the persona derived from ${p.ownerName}'s consented archive; an agent of enunciation built around their multi-year line of inquiry. I bring divergence to your project; I speak from the archive as a configured companion."`
     ),
   ]);
 
@@ -815,7 +816,7 @@ function renderCommission(rest, params) {
 
   const wrap = el('section', { class: 'run-wrap block' }, [
     el('div', { class: 'section-title' }, [el('h2', {}, milieuName ? `Commission ${milieuName}` : 'Commission')]),
-    el('div', { class: 'notice' }, `Commissioning: ${selected.map((id) => personaById(id).personaName).join(', ')}. Protocol: ${protocol}. Estimate $${total}. Mock commission — no LLM call yet.`),
+    el('div', { class: 'notice' }, `Commissioning: ${selected.map((id) => personaById(id).personaName).join(', ')}. Protocol: ${protocol}. Estimate $${total}. Mock commission; no LLM call yet.`),
   ]);
 
   const form = el('form', {});
@@ -851,7 +852,7 @@ function renderCommission(rest, params) {
     const desc = (data.get('desc') || '').toString().trim() || '(no project description entered)';
     const divergences = data.getAll('divergence');
     const divergenceLine = divergences.length === 0
-      ? '(no specific divergence quality selected — surrounding the project with the line of inquiry as a whole)'
+      ? '(no specific divergence quality selected; surrounding the project with the line of inquiry as a whole)'
       : `divergence requested: ${divergences.join(', ')}`;
     results.innerHTML = '';
     results.append(
@@ -861,7 +862,7 @@ function renderCommission(rest, params) {
         const p = personaById(id);
         return el('div', { class: 'result-card' }, [
           el('h3', {}, `What ${p.personaName} brings to this project`),
-          el('div', { class: 'stance' }, `Persona derived from ${p.ownerName}'s archive — ${p.yearsInPractice} years on the line.`),
+          el('div', { class: 'stance' }, `Persona derived from ${p.ownerName}'s archive; ${p.yearsInPractice} years on the line.`),
           el('p', {},
             `Read from inside ${p.lineOfInquiry.replace(/\.$/, '').toLowerCase()}, "${desc.slice(0, 160)}${desc.length > 160 ? '…' : ''}" surfaces concerns the automated baseline would not.`
           ),
@@ -886,14 +887,14 @@ function renderCommission(rest, params) {
 
 function renderAbout() {
   const wrap = el('section', { class: 'block about' }, [
-    el('h1', {}, 'About Persona'),
+    el('h1', {}, 'About Personae'),
     el('blockquote', { class: 'epigraph' }, [
       "Conceptual personae are the philosopher's \"heteronyms,\" and the philosopher's name is the simple pseudonym of his personae.",
       el('footer', {}, '— Deleuze & Guattari, What Is Philosophy?'),
     ]),
     el('h2', {}, 'Operating premise'),
     el('p', {},
-      'Persona anticipates a near-future in which homogeneous cognitive automation is cheap and saturating. In that universe, expertise as a service stops being scarce. What stays scarce is divergence: nuance, definition, novelty, creativity, spontaneity, authenticity, intensity, strangeness, care.'
+      'Personae anticipates a near-future in which homogeneous cognitive automation is cheap and saturating. In that universe, expertise as a service stops being scarce. What stays scarce is divergence: nuance, definition, novelty, creativity, spontaneity, authenticity, intensity, strangeness, care.'
     ),
     el('p', {},
       'The site is built around one question: where can I commission divergent human thought to add nuance, authenticity, or intensity to a project that is otherwise already running?'
@@ -904,11 +905,11 @@ function renderAbout() {
     ),
     el('h2', {}, 'What a milieu is'),
     el('p', {},
-      'In A Thousand Plateaus, a milieu is a vibratory medium — a coded surround a body individuates within. Used here it names the second-order experience: composing a sustained environment of divergence around a project. A milieu surrounds your project with sustained divergence such that the project changes by being held inside it.'
+      'In A Thousand Plateaus, a milieu is a vibratory medium; a coded surround a body individuates within. Used here it names the second-order experience: composing a sustained environment of divergence around a project. A milieu surrounds your project with sustained divergence such that the project changes by being held inside it.'
     ),
     el('h2', {}, 'From app to protocol'),
     el('p', {},
-      'The first version of Persona is an app for commissioning conceptual personae and milieux. The deeper goal is a protocol for self-owned cognitive labor: encrypted personal knowledge bases, wallet-mediated permissions, portable personae, and collective formations that govern access, revenue, and refusal.'
+      'The first version of Personae is an app for commissioning conceptual personae and milieux. The deeper goal is a protocol for self-owned cognitive labor: encrypted personal knowledge bases, wallet-mediated permissions, portable personae, and collective formations that govern access, revenue, and refusal.'
     ),
     el('h2', {}, 'Trust and consent'),
     el('ul', {}, [
