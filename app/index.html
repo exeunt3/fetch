@@ -3,57 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fetch</title>
+    <title>Persona — a commission market for cognitive divergence</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="container">
-      <header>
-        <h1>Fetch</h1>
-        <p>Save and organize links.</p>
-      </header>
+    <header class="site-header">
+      <a href="#/" class="logo">Persona<span class="logo-dot">·</span></a>
+      <nav class="site-nav">
+        <a href="#/personae">Personae</a>
+        <a href="#/milieux">Milieux</a>
+        <a href="#/compose-milieu">Compose a milieu</a>
+        <a href="#/about">About</a>
+      </nav>
+    </header>
 
-      <section class="panel">
-        <h2>Persona Marketplace</h2>
-        <p>Explore demo Cognitive Personas available for single-run or crew-run sessions.</p>
-        <div id="marketplace-grid" class="marketplace-grid"></div>
-      </section>
+    <main id="view"></main>
 
-      <section class="panel">
-        <h2>Add Item</h2>
-        <form id="item-form">
-          <label>Title <input name="title" required /></label>
-          <label>URL <input type="url" name="url" required /></label>
-          <label>Tags (comma separated) <input name="tags" /></label>
-          <label>Notes <textarea name="notes" rows="3"></textarea></label>
-          <button type="submit">Save</button>
-        </form>
-      </section>
-
-      <section class="panel">
-        <h2>Library</h2>
-        <label>Search <input id="search" placeholder="Search title, notes, tags" /></label>
-        <ul id="items"></ul>
-        <p id="empty">No items yet. Add your first saved link.</p>
-      </section>
-    </main>
-
-
-
-    <dialog id="edit-dialog">
-      <form id="edit-form" method="dialog">
-        <h2>Edit Item</h2>
-        <input type="hidden" name="id" />
-        <label>Title <input name="title" required /></label>
-        <label>URL <input type="url" name="url" required /></label>
-        <label>Tags (comma separated) <input name="tags" /></label>
-        <label>Notes <textarea name="notes" rows="3"></textarea></label>
-        <div class="actions">
-          <button id="edit-cancel" type="button">Cancel</button>
-          <button type="submit">Save changes</button>
-        </div>
-      </form>
-    </dialog>
+    <footer class="site-footer">
+      <p>
+        Persona is a worker-conscious commission market for <em>conceptual personae</em>
+        — agents of enunciation built from consented archives, available to surround
+        already-running projects with the divergence automation cannot produce.
+        After Deleuze &amp; Guattari, <em>What Is Philosophy?</em> (1991) and <em>A Thousand Plateaus</em> (1980).
+      </p>
+      <p class="muted">All personae shown are demo profiles. Prices reflect commissioned cognitive labor; payments are simulated.</p>
+    </footer>
 
     <script src="main.js"></script>
   </body>
