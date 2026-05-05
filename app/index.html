@@ -32,6 +32,23 @@
       </section>
     </main>
 
+
+
+    <dialog id="edit-dialog">
+      <form id="edit-form" method="dialog">
+        <h2>Edit Item</h2>
+        <input type="hidden" name="id" />
+        <label>Title <input name="title" required /></label>
+        <label>URL <input type="url" name="url" required /></label>
+        <label>Tags (comma separated) <input name="tags" /></label>
+        <label>Notes <textarea name="notes" rows="3"></textarea></label>
+        <div class="actions">
+          <button id="edit-cancel" type="button">Cancel</button>
+          <button type="submit">Save changes</button>
+        </div>
+      </form>
+    </dialog>
+
     <script src="main.js"></script>
   </body>
 </html>

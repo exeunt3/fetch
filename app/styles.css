@@ -37,3 +37,7 @@ li {
 @media (max-width: 640px) {
   .container { padding: 0.75rem; }
 }
+
+#edit-dialog { border: 1px solid #e5e7eb; border-radius: 0.75rem; width: min(560px, 90vw); }
+#edit-dialog::backdrop { background: rgba(17, 24, 39, 0.45); }
+#edit-form { min-width: 0; }

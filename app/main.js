@@ -4,6 +4,9 @@ const form = document.getElementById('item-form');
 const itemsEl = document.getElementById('items');
 const emptyEl = document.getElementById('empty');
 const searchEl = document.getElementById('search');
+const editDialog = document.getElementById('edit-dialog');
+const editForm = document.getElementById('edit-form');
+const editCancelButton = document.getElementById('edit-cancel');
 
 let items = loadItems();
 let filter = '';
@@ -52,6 +55,15 @@ function render() {
   emptyEl.hidden = visible.length > 0;
 }
 
+function openEditDialog(item) {
+  editForm.elements.id.value = item.id;
+  editForm.elements.title.value = item.title;
+  editForm.elements.url.value = item.url;
+  editForm.elements.tags.value = item.tags.join(', ');
+  editForm.elements.notes.value = item.notes || '';
+  editDialog.showModal();
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const data = new FormData(form);
@@ -65,6 +77,33 @@ form.addEventListener('submit', (e) => {
   saveItems();
   form.reset();
   render();
+});
+
+editForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const data = new FormData(editForm);
+  const id = String(data.get('id'));
+  const index = items.findIndex((item) => item.id === id);
+  if (index < 0) {
+    editDialog.close();
+    return;
+  }
+
+  items[index] = {
+    ...items[index],
+    title: String(data.get('title')).trim(),
+    url: String(data.get('url')).trim(),
+    tags: normalizeTags(String(data.get('tags') || '')),
+    notes: String(data.get('notes') || '').trim(),
+  };
+
+  saveItems();
+  editDialog.close();
+  render();
+});
+
+editCancelButton.addEventListener('click', () => {
+  editDialog.close();
 });
 
 searchEl.addEventListener('input', (e) => {
@@ -82,13 +121,11 @@ itemsEl.addEventListener('click', (e) => {
 
   if (action === 'delete') {
     items.splice(index, 1);
+    saveItems();
+    render();
   } else if (action === 'edit') {
-    const nextTitle = prompt('Edit title', items[index].title);
-    if (!nextTitle) return;
-    items[index].title = nextTitle.trim();
+    openEditDialog(items[index]);
   }
-  saveItems();
-  render();
 });
 
 render();
