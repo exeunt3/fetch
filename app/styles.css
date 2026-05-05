@@ -116,6 +116,15 @@ main {
   font-weight: 400;
   margin: 0 0 18px;
 }
+
+.hero p.tagline-sub {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+  max-width: 64ch;
+}
+.hero p.tagline-sub strong { font-weight: 700; }
+
 .hero p.lede {
   font-size: 15px;
   line-height: 1.5;
