@@ -92,7 +92,7 @@ main {
   margin: 0 auto;
   padding: 28px 24px 36px;
   border-top: 1px solid var(--rule);
-  font-size: 12px;
+  font-size: 15px;
   color: var(--ink);
 }
 .site-footer p { margin: 0 0 8px; max-width: 720px; }
@@ -118,7 +118,7 @@ main {
 }
 
 .hero p.tagline-sub {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.4;
   margin: 0 0 10px;
   max-width: 64ch;
