@@ -7,6 +7,20 @@ const searchEl = document.getElementById('search');
 const editDialog = document.getElementById('edit-dialog');
 const editForm = document.getElementById('edit-form');
 const editCancelButton = document.getElementById('edit-cancel');
+const marketplaceEl = document.getElementById('marketplace-grid');
+
+const personaSeeds = [
+  { id: 'mae-larkspur', displayName: 'Mae Larkspur', fylgjaName: 'Fylgja of Maintenance Ontology', tagline: 'Nothing is abstract once you have to maintain it at 2:13 a.m.', domainTags: ['infrastructure philosophy', 'ethics of maintenance'], pricing: { singleRunUsd: 7 } },
+  { id: 'iren-voss', displayName: 'Iren Voss', fylgjaName: 'Fylgja of Procedural Intimacy', tagline: 'Every institution has a hidden choreography of permission.', domainTags: ['political ontology', 'governance design'], pricing: { singleRunUsd: 6 } },
+  { id: 'sora-kel', displayName: 'Sora Kel', fylgjaName: 'Fylgja of Ritual Systems', tagline: 'Ritual is a compression format for shared attention.', domainTags: ['ritual theory', 'collective cognition'], pricing: { singleRunUsd: 8 } },
+  { id: 'davian-rook', displayName: 'Davian Rook', fylgjaName: 'Fylgja of Friction Cartography', tagline: 'Friction is not failure; it is where ontology leaks.', domainTags: ['process philosophy', 'systems diagnostics'], pricing: { singleRunUsd: 7 } },
+  { id: 'lina-moravec', displayName: 'Lina Moravec', fylgjaName: 'Fylgja of Situated Computation', tagline: 'Code is always local, even when distributed.', domainTags: ['philosophy of technology', 'feminist STS'], pricing: { singleRunUsd: 8 } },
+  { id: 'niko-ardent', displayName: 'Niko Ardent', fylgjaName: 'Fylgja of Ordinary Phenomenology', tagline: 'If users keep improvising, your model of experience is wrong.', domainTags: ['phenomenology', 'everyday systems'], pricing: { singleRunUsd: 6 } },
+  { id: 'tamsin-quill', displayName: 'Tamsin Quill', fylgjaName: 'Fylgja of Posthuman Reciprocity', tagline: 'Ethics begins where dependency is acknowledged.', domainTags: ['posthuman ethics', 'ecological systems ethics'], pricing: { singleRunUsd: 9 } },
+  { id: 'oren-pale', displayName: 'Oren Pale', fylgjaName: 'Fylgja of Counter-Metrics', tagline: 'What you cannot afford to measure is often what matters most.', domainTags: ['measurement epistemology', 'organizational governance'], pricing: { singleRunUsd: 7 } },
+  { id: 'yara-venn', displayName: 'Yara Venn', fylgjaName: 'Fylgja of Boundary Ethics', tagline: 'Most harm appears first as an ignored boundary condition.', domainTags: ['feminist systems theory', 'service justice'], pricing: { singleRunUsd: 8 } },
+  { id: 'elio-drax', displayName: 'Elio Drax', fylgjaName: 'Fylgja of Archive Drift', tagline: 'Every archive thinks over time, whether you intend it or not.', domainTags: ['archive theory', 'knowledge infrastructure'], pricing: { singleRunUsd: 7 } },
+];
 
 let items = loadItems();
 let filter = '';
@@ -34,6 +48,23 @@ function matches(item, q) {
   if (!q) return true;
   const query = q.toLowerCase();
   return [item.title, item.url, item.notes, item.tags.join(' ')].join(' ').toLowerCase().includes(query);
+}
+
+function renderMarketplace() {
+  if (!marketplaceEl) return;
+  marketplaceEl.innerHTML = '';
+  personaSeeds.forEach((persona) => {
+    const card = document.createElement('article');
+    card.className = 'persona-card';
+    card.innerHTML = `
+      <h3>${persona.displayName}</h3>
+      <div class="persona-name">${persona.fylgjaName}</div>
+      <p>${persona.tagline}</p>
+      <div class="item-meta">${persona.domainTags.join(' · ')}</div>
+      <div class="persona-footer">From $${persona.pricing.singleRunUsd}/run</div>
+    `;
+    marketplaceEl.appendChild(card);
+  });
 }
 
 function render() {
@@ -128,4 +159,5 @@ itemsEl.addEventListener('click', (e) => {
   }
 });
 
+renderMarketplace();
 render();
