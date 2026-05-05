@@ -1,4 +1,4 @@
-// Personae; Phase 0 static preview
+// Persona; Phase 0 static preview
 // A directory of conceptual personae, after Deleuze & Guattari.
 // Operating premise: divergence is the scarce resource.
 
@@ -459,7 +459,7 @@ function renderHome() {
       el('h1', {}, 'Automation will eat everything except difference.'),
       el('p', { class: 'tagline-sub' }, el('strong', {}, 'Personae provides resources for divergent thinking to survive the great homogenization.')),
       el('p', { class: 'lede' },
-        'Personae is a worker-conscious commission market for conceptual personae; agents of enunciation built from consented archives. The premise is straightforward: as cheap homogeneous cognitive automation saturates the work of reasoning, the scarce resource becomes the kind of difference a person develops across years of staying inside one question. The directory below gathers people doing that work, and the site is a way to commission it into projects already running.'),
+        'Persona is a worker-conscious commission market for conceptual personae; agents of enunciation built from consented archives. The premise is straightforward: as cheap homogeneous cognitive automation saturates the work of reasoning, the scarce resource becomes the kind of difference a person develops across years of staying inside one question. The directory below gathers people doing that work, and the site is a way to commission it into projects already running.'),
       el('div', { class: 'hero-cta' }, [
         el('a', { class: 'btn', href: '#/personae' }, 'Browse personae'),
         el('a', { class: 'btn ghost', href: '#/milieux' }, 'Commission a milieu'),
